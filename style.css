@@ -11,15 +11,15 @@ body {
   background-color: darkolivegreen;
 }
 .card-img {
-  width: 100%;
-  float: left;
-  width: 500px;
-  height: 300px;
+  width: 80%;
+  height: 80%;
+  width: 250px;
+  height: 150px;
   object-fit: cover;
 }
 .card {
-  width: 27vw;
-  height: 55vh;
+  width: 20%;
+  height: 35%;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -28,6 +28,12 @@ body {
   margin: 8px 8px 8px;
   border-radius: 15px;
   box-shadow: 10px 10px;
+  transition: all .3s;
+}
+.card:hover {
+  color: blue;
+  transform: translateY(-10px);
+  transform: scale(1.1);
 }
 .flex-container {
   flex-wrap: wrap;
@@ -43,3 +49,4 @@ body {
   text-align: center;
   font-size: x-large;
 }
+
