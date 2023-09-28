@@ -1,9 +1,4 @@
 .title {
-<<<<<<< HEAD
-    text-align: center;
-    font-family: 'oswald', serif;
-    font-size: xx-large;
-=======
   text-align: center;
   font-family: "oswald", serif;
   font-size: xx-large;
@@ -12,7 +7,7 @@
 .title:hover {
   color: royalblue;
   transform: skew(-5deg);
->>>>>>> ac776be5fb23fbd81548cab80a82fdef9ca98f5e
+  rotate: 360deg;
 }
 body {
     font-size: 10px;
@@ -22,24 +17,6 @@ body {
     background-color: darkolivegreen;
 }
 .card-img {
-<<<<<<< HEAD
-    width: 80%;
-    float: left;
-    width: 200px;
-    height: 150px;
-    object-fit: cover;
-}
-.card {
-    width: 27vw;
-    height: 55vh;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    background-color: deepskyblue;
-    justify-content: space-between;
-    margin: 8px 8px 8px;
-    border-radius: 10px;
-=======
   width: 80%;
   height: 80%;
   width: 250px;
@@ -79,7 +56,6 @@ body {
   transform: translateY(-10px);
   transform: scale(1.1);
   transform: skew(-2deg);
->>>>>>> ac776be5fb23fbd81548cab80a82fdef9ca98f5e
 }
 .flex-container {
     flex-wrap: wrap;
@@ -91,7 +67,13 @@ body {
     font-family: 'Croissant One', cursive;
     font-size: large;
 }
+.card-title:hover {
+  scale: 140%;
+}
 .card-desc {
     text-align: center;
     font-size: x-large;
+}
+.card-desc:hover {
+  scale: 110%;
 }
