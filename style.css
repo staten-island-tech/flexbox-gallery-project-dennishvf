@@ -1,7 +1,18 @@
 .title {
+<<<<<<< HEAD
     text-align: center;
     font-family: 'oswald', serif;
     font-size: xx-large;
+=======
+  text-align: center;
+  font-family: "oswald", serif;
+  font-size: xx-large;
+  transition: all 0.3s;
+}
+.title:hover {
+  color: royalblue;
+  transform: skew(-5deg);
+>>>>>>> ac776be5fb23fbd81548cab80a82fdef9ca98f5e
 }
 body {
     font-size: 10px;
@@ -11,6 +22,7 @@ body {
     background-color: darkolivegreen;
 }
 .card-img {
+<<<<<<< HEAD
     width: 80%;
     float: left;
     width: 200px;
@@ -27,6 +39,47 @@ body {
     justify-content: space-between;
     margin: 8px 8px 8px;
     border-radius: 10px;
+=======
+  width: 80%;
+  height: 80%;
+  width: 250px;
+  height: 150px;
+  object-fit: cover;
+  transition: all 0.3s;
+}
+.card-img:hover {
+  transform: scale(120%);
+  opacity: 80%;
+}
+.card {
+  width: 20%;
+  height: 35%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: burlywood;
+  justify-content: space-between;
+  margin: 12px 12px 12px;
+  border-radius: 15px;
+  box-shadow: 7px 7px;
+  transition: all 0.3s;
+}
+@media screen and (max-width: 768px) {
+  .card {
+    width: 100%;
+  }
+}
+  @media  screen and (max-width: 1024px) {
+    .card{
+      width: 40%
+    }
+  }
+.card:hover {
+  background-color: khaki;
+  transform: translateY(-10px);
+  transform: scale(1.1);
+  transform: skew(-2deg);
+>>>>>>> ac776be5fb23fbd81548cab80a82fdef9ca98f5e
 }
 .flex-container {
     flex-wrap: wrap;
