@@ -2,30 +2,10 @@
   text-align: center;
   font-family: "oswald", serif;
   font-size: xx-large;
-  transition: all 0.3s;
-  animation: 2s infinite;
 }
 .title:hover {
   color: royalblue;
   transform: skew(-5deg);
-  rotate: 360deg;
-}
-@keyframes .title{
-0%{
-  left: 50%;
-}
-25%{:left: 60%
-bottom: 50%
-}
-50%{
-right:50%
-}
-75%{
-right: 50%
-}
-100%{
-bottom: 60%
-}
 }
 body {
     font-size: 10px;
@@ -94,4 +74,24 @@ body {
 }
 .card-desc:hover {
   scale: 110%;
+}
+.animation {
+  height: 7rem;
+  width: 10rem;
+  position: absolute;
+  animation: ani 3s infinite;
+}
+@keyframes ani {
+  0%{
+    left: 7%;
+    top: 2%;
+  }
+  50%{
+left: 15%;
+top: 2%;
+  }
+  100%{
+    left: 7%;
+    top: 2%;
+  }
 }
